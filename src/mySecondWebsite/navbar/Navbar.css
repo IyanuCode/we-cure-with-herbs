@@ -1,0 +1,123 @@
+  *{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* navbar styling */
+   nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    height: 80px;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    transition: all 0.5s ease;
+    padding: 10px;
+    z-index: 1;
+    font-weight: bolder;
+  } 
+
+   .navbar {
+    display: flex;
+    gap: 20px;
+    transition: all 0.5s ease;
+
+  }
+
+
+  ul .active{
+    background-color: purple;
+  }
+  li a{
+    color:red;
+    transition: all 0.5s ease;
+  } 
+  ul{
+    transition: all 0.5s ease;
+  }
+  li a:hover::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 9px; /* Adjust the thickness of the underline */
+  width: 10px;
+  background-color: #fff; /* Set the color of the underline */
+  transition: width 0.3s ease; /* Add a smooth transition effect */
+  }
+  .menu-icon{
+    display: none;
+    margin-right: 60px;
+  }
+  .navbarLogo{
+    display: flex;
+   align-items: center;
+  }
+
+  .navbarLogo > li {
+    font-weight: bolder;
+    font-size: larger;
+  }
+  .navbarLogo p{
+    color: white;
+  }
+
+  /* unvisited link */
+  a:link {
+  color: gray;
+}
+
+/* visited link */
+/* a:visited {
+  color: ;
+} */
+
+/* mouse over link */
+a:hover {
+  color: white;
+  font-size: larger;
+}
+
+/* selected link */
+/* a:active {
+  color: yellow;
+} */
+
+
+
+
+  @media screen and (max-width: 800px) {
+    .menu-icon{
+      display: block;
+      margin-right: 60px;
+    }
+    .navbar.active{
+    background-color: purple;
+    display: none;
+  }
+  nav{
+    transition: width 0.3s ease; /* Add a smooth transition effect */
+  }
+  ul{
+    transition: all 0.5s ease;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    width: 100%;
+    height: 65vh; 
+    text-align: center;
+    gap: 22px;
+    /* padding: 55px; */
+    position: fixed;
+    right: 0px;
+    top: 80px;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+  }
+} 
