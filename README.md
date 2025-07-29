@@ -1,3 +1,39 @@
+# We Cure with Herbs 🌿
+
+Visit Live Site: [iyanucode.github.io/we-cure-with-herbs](https://iyanucode.github.io/we-cure-with-herbs/)
+
+## 🌱 About
+
+**We Cure with Herbs** is a simple, informative, and user-friendly website that promotes natural healing and wellness through the use of herbs. This project showcases traditional herbal remedies, their uses, and educational content for those interested in natural health solutions.
+
+Whether you're looking to explore herbal medicine or simply curious about nature’s healing powers, this site is designed to offer helpful, culturally rooted knowledge.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **GitHub Pages** – for hosting the site
+
+---
+
+
+---
+
+## 🚀 How to View Locally
+
+If you'd like to view or contribute to the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/iyanucode/we-cure-with-herbs.git
+
+# Open index.html in your browser
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

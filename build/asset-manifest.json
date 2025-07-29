@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/we-cure-with-herbs/static/css/main.49f862cc.css",
+    "main.js": "/we-cure-with-herbs/static/js/main.24ee698c.js",
+    "index.html": "/we-cure-with-herbs/index.html",
+    "main.49f862cc.css.map": "/we-cure-with-herbs/static/css/main.49f862cc.css.map",
+    "main.24ee698c.js.map": "/we-cure-with-herbs/static/js/main.24ee698c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49f862cc.css",
+    "static/js/main.24ee698c.js"
+  ]
+}
